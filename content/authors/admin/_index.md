@@ -31,7 +31,7 @@ education:
     institution: Huazhong Agricultural University
     year: 2018
   - course: MESM in Energy and Climate
-    institution: niversity of California, Santa Barbara
+    institution: University of California, Santa Barbara
     year: 2020
 
 
@@ -68,6 +68,4 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Yirui Zhang is a second-year master's student at the Bren School, University of California, Santa Barbara. My area of interest includes climate change mitigation, emission accounting and management, and sustainability reporting.
