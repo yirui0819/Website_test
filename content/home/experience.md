@@ -18,27 +18,32 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
+  title = "Program Coordinator"
+  company = "UCSB Apartment Compost Initiative"
   company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  location = "Santa Barbara, California"
+  date_start = "2019-02-01"
   date_end = ""
   description = """
   Responsibilities include:
   
-  * Analysing
-  * Modelling
-  * Deploying
+*	Organized and led quarterly workshops on best practices for composting in 200+ student apartments 
+*	Partnered with UCSB Associated Students Recycling in coordinating program logistics and planning activities
+*	Tracked, analyzed and reported participation data and program success metrics, including participation rate, collected organic waste, carbon emission reduction, and money-saving at UCSB
+
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
+  title = "Program Coordinator"
+  company = "China Youth Climate Action Network"
   company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  location = "Beijing, China"
+  date_start = "2017-12-01"
+  date_end = "2018-8-31"
+  description = """
+  Responsibilities include:
+  
+*	Organized 10th International Youth Summit on Energy and Climate Change with 500+ participants and 70 speakers
+*	Developed 2016-2¬¬¬¬¬017 Online Youth Exchange Program in partnership with Care About Climate including holding monthly webinars, leading online climate issue discussion tha¬¬t attracted 300+ participants from 21 countries
 
 +++
