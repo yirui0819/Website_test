@@ -31,20 +31,9 @@ date_format = "Jan 2006"
 *	Partnered with UCSB Associated Students Recycling in coordinating program logistics and planning activities
 *	Tracked, analyzed and reported participation data and program success metrics, including participation rate, collected organic waste, carbon emission reduction, and money-saving at UCSB
 
+[[experience]] title = "Professor" company = "University X" company_url = "" location = "California" date_start = "2016-01-01" date_end = "2016-12-31" description = """Taught electronic engineering and researched semiconductor physics."""
 
-[[experience]]
-  title = "Program Coordinator"
-  company = "China Youth Climate Action Network"
-  company_url = ""
-  location = "Beijing, China"
-  date_start = "2017-12-01"
-  date_end = "2018-8-31"
-  description = """
-  Responsibilities include:
-  
-*	Organized 10th International Youth Summit on Energy and Climate Change with 500+ participants and 70 speakers
-*	Developed 2016-2017 Online Youth Exchange Program in partnership with Care About Climate including holding monthly webinars, leading online climate issue discussion tha¬¬t attracted 300+ participants from 21 countries
-  """
+
  
 
 +++
