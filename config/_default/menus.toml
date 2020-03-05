@@ -8,7 +8,10 @@
   url = "#about"
   weight = 10
 
-
+[[main]]
+  name = "Skills"
+  url = ""
+  weight = 30
 
 [[main]]
   name = "Projects"
