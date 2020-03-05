@@ -30,8 +30,8 @@ date_format = "Jan 2006"
 *	Organized and led quarterly workshops on best practices for composting in 200+ student apartments 
 *	Partnered with UCSB Associated Students Recycling in coordinating program logistics and planning activities
 *	Tracked, analyzed and reported participation data and program success metrics, including participation rate, collected organic waste, carbon emission reduction, and money-saving at UCSB
- """
- """
+
+
 [[experience]]
   title = "Program Coordinator"
   company = "China Youth Climate Action Network"
