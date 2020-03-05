@@ -39,7 +39,7 @@ subtitle = ""
  css_class = ""
 +++
 
-## Bren Master's Group Project: Just Health ##
+## [Bren Master's Group Project: Just Health](HW1.html) ##
 The environment can directly and indirectly impact on our health and wellbeing. Environmental hazards can increase the risk of disease, including cancer, heart disease and asthma. A new study revealed a significant link between diabetes and pollution levels. 
 
 Currently, more than 80 percent of people who live in urban areas breathe air that does not meet the WHO guidelines and globally, environmental factors contributed to an estimated 23 percent of all deaths in 2012.
@@ -50,6 +50,10 @@ A growing body of research is examining the links between pollution exposure and
 
 Follow our [website](https://www.brenjusthealth.com/) to know more about us.
 
+## Social Cost of Carbon with Various Discount Rate ##
+The social cost of carbon is a measure of the economic harm from those impacts, expressed as the dollar value of the total damages from emitting one ton of carbon dioxide into the atmosphere. The current central estimate of the social cost of carbon is over $50 per ton in today's dollars. 
+
+The choice of discount rate strongly affects the social cost of carbon. This project examines the effect of discount rate on social cost of carbon.
 
 
 
