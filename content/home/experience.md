@@ -31,4 +31,5 @@ date_format = "Jan 2006"
 *	Partnered with UCSB Associated Students Recycling in coordinating program logistics and planning activities
 *	Tracked, analyzed and reported participation data and program success metrics, including participation rate, collected organic waste, carbon emission reduction, and money-saving at UCSB
 
+  """
 +++
