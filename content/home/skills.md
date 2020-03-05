@@ -23,13 +23,13 @@ subtitle = ""
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
-  name = "Statistics"
-  description = "100%"  
+  name = "Data Analysis"
+  description = "SQL, R, and ArcGIS"  
   
 [[feature]]
-  icon = "camera-retro"
+  icon = "building"
   icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
+  name = "Green Building"
+  description = "LEED Green Associate"
 
 +++
