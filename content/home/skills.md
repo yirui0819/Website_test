@@ -27,7 +27,7 @@ subtitle = ""
   description = "SQL, R, and ArcGIS"  
   
 [[feature]]
-  icon = "building"
+  icon = "chart-line"
   icon_pack = "fas"
   name = "Green Building"
   description = "LEED Green Associate"
