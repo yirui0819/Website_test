@@ -44,6 +44,6 @@ date_format = "Jan 2006"
   Responsibilities include:
   
 *	Organized 10th International Youth Summit on Energy and Climate Change with 500+ participants and 70 speakers
-*	Developed 2016-2¬¬¬¬¬017 Online Youth Exchange Program in partnership with Care About Climate including holding monthly webinars, leading online climate issue discussion tha¬¬t attracted 300+ participants from 21 countries
+*	Developed 2016-2017 Online Youth Exchange Program in partnership with Care About Climate including holding monthly webinars, leading online climate issue discussion tha¬¬t attracted 300+ participants from 21 countries
   """
 +++
