@@ -39,9 +39,16 @@ subtitle = ""
  css_class = ""
 +++
 
-***California Environmental Justice*** 
+## Bren Master's Group Project: Just Health ##
+The environment can directly and indirectly impact on our health and wellbeing. Environmental hazards can increase the risk of disease, including cancer, heart disease and asthma. A new study revealed a significant link between diabetes and pollution levels. 
 
-Follow our [website](https://www.brenjusthealth.com/) to know more about us
+Currently, more than 80 percent of people who live in urban areas breathe air that does not meet the WHO guidelines and globally, environmental factors contributed to an estimated 23 percent of all deaths in 2012.
+
+In California, 2.5 million adults are diagnosed with diabetes and another 13 million adults (46 percent of all adults in the state) are estimated to be pre-diabetic. A disproportionate number of diagnosed adults are racial minorities such as Native Americans/Alaska Natives, African-Americans, and Latinos.  Latinos are twice as likely as non-Hispanic whites to be diagnosed with diabetes by a physician. 
+
+A growing body of research is examining the links between pollution exposure and diabetes rates. Just Health is exploring how the link between pollution and diabetes interacts throughout California, especially within vulnerable communities.  
+
+Follow our [website](https://www.brenjusthealth.com/) to know more about us.
 
 
 
