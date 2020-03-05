@@ -24,7 +24,6 @@ subtitle = ""
   # Background color.
    color = "navy"
   
- Just Health 
   # Background image.
   # image = "image.jpg"  # Name of image in `static/img/`.
   # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
@@ -41,13 +40,13 @@ subtitle = ""
 
 [advanced]
  # Custom CSS. 
- css_style = ""
+ #css_style = ""
  
  # CSS class.
- css_class = ""
+ #css_class = ""
 +++
 
-Welcome to the **Academic Kickstart** template!
+Just Health!
 
 Follow our [Getting Started](https://sourcethemes.com/academic/docs/get-started/) and [Page Builder](https://sourcethemes.com/academic/docs/widgets/) guides to easily personalize the template and then [add your own content](https://sourcethemes.com/academic/docs/managing-content/).
 
