@@ -33,17 +33,4 @@ date_format = "Jan 2006"
 
   """
 
-[[experience]]
-  title = "Program Coordinator"
-  company = "China Youth Climate Action Network"
-  company_url = ""
-  location = "Beijing, China"
-  date_start = "2017-12-01"
-  date_end = "2018-8-31"
-  description = """
-  Responsibilities include:
-  
-*	Organized 10th International Youth Summit on Energy and Climate Change with 500+ participants and 70 speakers
-*	Developed 2016-2017 Online Youth Exchange Program in partnership with Care About Climate including holding monthly webinars, leading online climate issue discussion tha¬¬t attracted 300+ participants from 21 countries
-  """
 +++
