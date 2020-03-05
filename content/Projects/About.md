@@ -5,10 +5,10 @@
 
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
+active = false  # Activate this widget? true/false
 weight = 15  # Order that this section will appear.
 
-title = "Project"
+title = "Academic Kickstart"
 subtitle = ""
 
 [design]
@@ -22,7 +22,11 @@ subtitle = ""
   #   Any HTML color name or Hex value is valid.
 
   # Background color.
-   color = "navy"
+  # color = "navy"
+  
+  # Background gradient.
+  gradient_start = "DarkGreen"
+  gradient_end = "ForestGreen"
   
   # Background image.
   # image = "image.jpg"  # Name of image in `static/img/`.
@@ -40,13 +44,13 @@ subtitle = ""
 
 [advanced]
  # Custom CSS. 
- #css_style = ""
+ css_style = ""
  
  # CSS class.
- #css_class = ""
+ css_class = ""
 +++
 
-Just Health!
+Welcome to the **Academic Kickstart** template!
 
 Follow our [Getting Started](https://sourcethemes.com/academic/docs/get-started/) and [Page Builder](https://sourcethemes.com/academic/docs/widgets/) guides to easily personalize the template and then [add your own content](https://sourcethemes.com/academic/docs/managing-content/).
 
@@ -69,4 +73,3 @@ Backgrounds can be applied to any section. Here, the *background* option is set 
 
 **To remove this section, delete `content/home/demo.md`.**
 {{% /alert %}}
-
