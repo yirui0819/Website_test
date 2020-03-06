@@ -7,7 +7,7 @@ weight = 40  # Order that this section will appear.
 
 title = "Experience"
 subtitle = ""
-{{% staticref "project_data/Yirui Zhang Resume.pdf" "newtab" %}} Resume {{% /staticref %}}
+{{% staticref "project_data/Yirui_Zhang_Resume.pdf" "newtab" %}} Resume {{% /staticref %}}
 
 # Date format for experience
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
