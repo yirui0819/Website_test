@@ -10,7 +10,7 @@
 
 [[main]]
   name = "Resume"
-  url = "static/files/Yirui_Zhang_Resume.pdf"
+  url = "Website_test/static/files/Yirui_Zhang_Resume.pdf"
   weight = 30
 
 [[main]]
