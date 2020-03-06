@@ -1,0 +1,106 @@
+---
+title: '**Racial Makeup of CalEnviroScreen Score **'
+author: '**Yirui Zhang**'
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r, message = FALSE, warning = FALSE,echo = FALSE}
+#Part 0. Load Packages
+library(tidyverse)
+library(janitor)
+library(kableExtra)
+library(scales)
+library(ggplot2)
+library(ggfortify)
+library(knitr)
+library(naniar)
+library(ggpubr)
+library(broom) # Require development version!
+```
+
+###  Data wrangling & visualization
+
+The California Communities Environmental Health Screening Tool (CalEnviroScreen) is a tool that helps identify vulunterable communities that are most affected by pollution. CalEnviroScreen combines 19 indicators, broken into three categories: pollution burdens, socioeconomic indicators, and public health indicators. This project aims to assess the impact of race on CalEnviroScreen Score by analyzing the racial make up of CalEnviroScreen score. The data were obtained from CalEnviroScreen (version 3.0). 
+
+```{r, message = FALSE, warning = FALSE}
+#Load CES Race Data
+dem_clean <- read.csv("Demo2.csv")
+dem_clean2 <- dem_clean %>% 
+  clean_names()
+ 
+#New dataset of scores from different races using Group_By and Summarize function
+dem_set <- dem_clean2 %>% 
+  group_by(percentile) %>% 
+  summarize(Hispanic = mean(hispanic, round(2)),
+            White = mean(white, round(2)),
+            Asian = mean(asian_american, round(2)),
+            native = mean (native_american, round(2)),
+            africa = mean (african_american, round(2)),
+            Other = mean(other, round(2))) %>% 
+   na.omit()#omit any NA variables
+
+#Update colomum names from the new dataset
+names(dem_set)[names(dem_set) == "africa"] <- "African American"
+names(dem_set)[names(dem_set) == "native"] <- "Native American"
+```
+
+
+```{r, message = FALSE, warning = FALSE}
+dem_tidy <- gather(dem_set, "race","Race_Percent","White", "Hispanic", "Asian", "Native American","African American","Other" )
+#dem_tidy <- na.omit(dem_tidy)
+
+dem_tidy_test <- dem_tidy %>% 
+  mutate(Percentile = factor(percentile, levels = c("1","2","3","4","5","6","7","8","9", "10")))
+
+#Make the plot of racial makeup of CalEnviroScreen score
+test <- ggplot (dem_tidy_test, aes(x=Percentile, y = Race_Percent, fill = race))+
+  #show the components of each decile of score
+  geom_bar(stat = "identity", position = "fill")+
+  #Add title
+  ggtitle ("  Figure 1. Racial Makeup of Each Decile of CalEnviroScreen Score ")+
+  #Add x/y axis
+  labs(y="Percent (%)", x = "Score Decile ", fill = "Race")+
+  #Choosing colors for each race category
+  scale_fill_manual(values = c("blue","#00AFBB", "wheat3", "#FC4E07","#FFDB6D","yellow3"))+
+  #Adjust the position of capition
+  theme(plot.caption = element_text(hjust = 0))+
+  #Select themes and background
+  theme_minimal()
+
+test
+```
+
+**Figure 1. Racial make up of Each Decile of CalEnviroScreen Score.** The x-axis is the decile of CalEnviroScreen score and a higher score means a higher pollution and health impact. (Data Source: Office of Environmental Health Hazard Assessment (OEHHA). 2017. CalEnviroScreen 3.0)
+
+Figure 1 shows how people of color are over-represented in ten percent increments of CalEnviroScreen.  A higher CalEnvioScreen score is associated with higher Hispanic and African American population percentage, and a lower white population percent. That is being said, Hispanic and African Americans disproportionately reside in highly impacted communities, while white people reside in least impacted communities. 
+
+
+```{r, message = FALSE, warning = FALSE}
+#Edit Column name of dataset
+names(dem_set)[names(dem_set) == "percentile"] <- "Score Decile"
+names(dem_set)[names(dem_set) == "Hispanic"] <- "Hispanic (%)"
+names(dem_set)[names(dem_set) == "White"] <- "White (%)"
+names(dem_set)[names(dem_set) == "Native American"] <- "Native American (%)"
+names(dem_set)[names(dem_set) == "Asian"] <- "Asian American (%)"
+names(dem_set)[names(dem_set) == "African American"] <- "African American (%)"
+names(dem_set)[names(dem_set) == "Other"] <- "Other Race (%)"
+
+#Make a Table 
+Table <- dem_set %>% 
+  #Add caption
+  kable() %>% 
+  #Format the table
+  column_spec(1, bold = T, color = "blue", background = "grey55") %>%
+  kable_styling(bootstrap_options = c("hover", position = "center",row_label_position = "c", font_size = 14))
+Table
+```
+
+**Table 1. Racial Makeup of Each Decile of CalEnviroScreen Score** This table indicates a similar association: Hispanic and African Americans population concentrated in highly impacted communities which have higher CalEnviroScreen scores, while majority population of the least impacted communitiesis white people. (Data Source: Office of Environmental Health Hazard Assessment (OEHHA). 2017. CalEnviroScreen 3.0.)
+
