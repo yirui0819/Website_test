@@ -1,14 +1,9 @@
-+++
-# A Demo section created with the Blank widget.
-# Any elements can be added in the body: https://sourcethemes.com/academic/docs/writing-markdown-latex/
-# Add more sections by duplicating this file and customizing to your requirements.
-
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 15  # Order that this section will appear.
+weight = 80  # Order that this section will appear.
 
-title = "Academic Kickstart"
+title = "Projects"
 subtitle = ""
 
 [design]
@@ -22,21 +17,10 @@ subtitle = ""
   #   Any HTML color name or Hex value is valid.
 
   # Background color.
-  # color = "navy"
-  
-  # Background gradient.
-  gradient_start = "DarkGreen"
-  gradient_end = "ForestGreen"
-  
-  # Background image.
-  # image = "image.jpg"  # Name of image in `static/img/`.
-  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
-  # image_size = "cover"  #  Options are `cover` (default), `contain`, or `actual` size.
-  # image_position = "center"  # Options include `left`, `center` (default), or `right`.
-  # image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
-  
+   #color = "grey"
+   
   # Text color (true=light or false=dark).
-  text_color_light = true
+  text_color_light = false
 
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
@@ -50,26 +34,21 @@ subtitle = ""
  css_class = ""
 +++
 
-Welcome to the **Academic Kickstart** template!
+## Bren Master's Group Project: Just Health ##
+{{% staticref "project_data/HW1.rmd" "newtab" %}} Link {{% /staticref %}}
 
-Follow our [Getting Started](https://sourcethemes.com/academic/docs/get-started/) and [Page Builder](https://sourcethemes.com/academic/docs/widgets/) guides to easily personalize the template and then [add your own content](https://sourcethemes.com/academic/docs/managing-content/).
+The environment can directly and indirectly impact on our health and wellbeing. Environmental hazards can increase the risk of disease, including cancer, heart disease and asthma. A new study revealed a significant link between diabetes and pollution levels. 
 
-For inspiration, check out [the Markdown files](https://sourcethemes.com/academic/docs/install/#demo-content) which power the [personal demo](https://academic-demo.netlify.com/). The easiest way to publish your new site to the internet is with [Netlify](https://sourcethemes.com/academic/docs/deployment/).
+Currently, more than 80 percent of people who live in urban areas breathe air that does not meet the WHO guidelines and globally, environmental factors contributed to an estimated 23 percent of all deaths in 2012.
 
-- [View the documentation](https://sourcethemes.com/academic/docs/)
-- [Ask a question](http://discuss.gohugo.io/)
-- [Request a feature or report a bug](https://github.com/gcushen/hugo-academic/issues)
-- Updating? View the [Update Guide](https://sourcethemes.com/academic/docs/update/) and [Release Notes](https://sourcethemes.com/academic/updates/)
-- Support development of Academic:
-  - [Donate a coffee](https://paypal.me/cushen)
-  - [Become a backer on Patreon](https://www.patreon.com/cushen)
-  - [Decorate your laptop or journal with an Academic sticker](https://www.redbubble.com/people/neutreno/works/34387919-academic)
-  - [Wear the T-shirt](https://academic.threadless.com/)
+In California, 2.5 million adults are diagnosed with diabetes and another 13 million adults (46 percent of all adults in the state) are estimated to be pre-diabetic. A disproportionate number of diagnosed adults are racial minorities such as Native Americans/Alaska Natives, African-Americans, and Latinos.  Latinos are twice as likely as non-Hispanic whites to be diagnosed with diabetes by a physician. 
 
-{{% alert note %}}
-This homepage section is an example of adding [elements](https://sourcethemes.com/academic/docs/writing-markdown-latex/) to the [*Blank* widget](https://sourcethemes.com/academic/docs/widgets/).
+A growing body of research is examining the links between pollution exposure and diabetes rates. Just Health is exploring how the link between pollution and diabetes interacts throughout California, especially within vulnerable communities.  
 
-Backgrounds can be applied to any section. Here, the *background* option is set give a *color gradient*.
+Follow our [website](https://www.brenjusthealth.com/) to know more about us.
 
-**To remove this section, delete `content/home/demo.md`.**
-{{% /alert %}}
+## Social Cost of Carbon with Various Discount Rate ##
+The social cost of carbon is a measure of the economic harm from those impacts, expressed as the dollar value of the total damages from emitting one ton of carbon dioxide into the atmosphere. The current central estimate of the social cost of carbon is over $50 per ton in today's dollars. 
+
+The choice of discount rate strongly affects the social cost of carbon. This project examines the effect of discount rate on social cost of carbon.
+
