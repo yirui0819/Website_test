@@ -9,7 +9,7 @@
   weight = 10
 
 [[main]]
-  name = "Experience"
+  name = "Resume"
   url = "static/files/Yirui_Zhang_Resume.pdf"
   weight = 30
 
