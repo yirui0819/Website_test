@@ -39,7 +39,9 @@ subtitle = ""
  css_class = ""
 +++
 
-## [Bren Master's Group Project: Just Health](https://github.com/yirui0819/Website_test/blob/master/HW1.html) ##
+## Bren Master's Group Project: Just Health ##
+{{% staticref "HW1.html" "newtab" %}} Link {{% /staticref %}}
+
 The environment can directly and indirectly impact on our health and wellbeing. Environmental hazards can increase the risk of disease, including cancer, heart disease and asthma. A new study revealed a significant link between diabetes and pollution levels. 
 
 Currently, more than 80 percent of people who live in urban areas breathe air that does not meet the WHO guidelines and globally, environmental factors contributed to an estimated 23 percent of all deaths in 2012.
