@@ -40,7 +40,7 @@ subtitle = ""
 +++
 
 ## Bren Master's Group Project: Just Health ##
-{{% staticref "HW1.html" "newtab" %}} Link {{% /staticref %}}
+{{% staticref "project_data/HW1.rmd" "newtab" %}} Link {{% /staticref %}}
 
 The environment can directly and indirectly impact on our health and wellbeing. Environmental hazards can increase the risk of disease, including cancer, heart disease and asthma. A new study revealed a significant link between diabetes and pollution levels. 
 
